@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# Datasets and large binary files (IGNORIAMO IL DATASET SU GIT PER NON BLOCCARE IL PUSH)
+dataset/
+*.zip
+*.tar.gz
+*.bin
+*.pth
+
+# Build files
+build/
+*.o
+*.elf
